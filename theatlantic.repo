@@ -1,0 +1,15 @@
+[theatlantic]
+name=theatlantic
+baseurl=http://dev.theatlantic.com/repo/el/7/$basearch
+repo_gpgcheck=0
+gpgcheck=0
+enabled=1
+cost=2000
+
+[theatlantic-source]
+name=theatlantic-source
+baseurl=http://dev.theatlantic.com/repo/el/7/SRPMS
+repo_gpgcheck=0
+gpgcheck=0
+enabled=1
+cost=2000
