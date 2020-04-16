@@ -1,6 +1,6 @@
 Name:           theatlantic-release
 Version:        7
-Release:        1
+Release:        2
 Summary:        The Atlantic's custom yum repository
 
 Group:          System Environment/Base
@@ -11,6 +11,7 @@ Source0:        theatlantic.repo
 
 BuildArch:     noarch
 Requires:      redhat-release >=  %{version}
+Requires:      yum-plugin-priorities
 
 %description
 This package contains The Atlantic's custom yum repository.

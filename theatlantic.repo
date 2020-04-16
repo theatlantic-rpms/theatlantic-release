@@ -5,6 +5,7 @@ repo_gpgcheck=0
 gpgcheck=0
 enabled=1
 cost=2000
+priority=1
 
 [theatlantic-source]
 name=theatlantic-source
