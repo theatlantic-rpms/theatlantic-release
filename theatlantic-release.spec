@@ -1,6 +1,6 @@
 Name:           theatlantic-release
 Version:        7
-Release:        2
+Release:        3
 Summary:        The Atlantic's custom yum repository
 
 Group:          System Environment/Base
@@ -34,5 +34,14 @@ rm -rf $RPM_BUILD_ROOT
 %config(noreplace) /etc/yum.repos.d/*
 
 %changelog
+* Mon Mar 01 2021 Frankie Dintino <fdintino@theatlantic.com> - 7-3
+- Change repo url
+
+* Thu Apr 16 2020 Frankie Dintino <fdintino@theatlantic.com> - 7-2
+- Increase priority.
+
+* Thu Apr 16 2020 Frankie Dintino <fdintino@theatlantic.com> - 7-2
+- Increase priority.
+
 * Wed Jan 18 2017 Frankie Dintino <fdintino@theatlantic.com> - 7-1
 - Initial build.
